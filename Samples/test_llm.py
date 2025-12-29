@@ -12,7 +12,7 @@ Examples for category: Electronics, Groceries, Clothing, Entertainment, Miscella
 Also add a seperate column for tax before total cost.
 """
 
-GEMINI_API_KEY = "AIzaSyAWZEoBoljII8KMfaheiA6tuZPTEDEas2A"
+GEMINI_API_KEY = "ADD_YOUR_API_KEY_HERE"
 client_genai = genai.Client(api_key=GEMINI_API_KEY)
 
 response = client_genai.models.generate_content(

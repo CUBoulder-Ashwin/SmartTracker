@@ -27,7 +27,7 @@ sheet = client_gspread.open(SHEET_NAME).sheet1
 
 # 2. SETUP: Gemini AI and OCR
 # Replace with your actual API key
-GEMINI_API_KEY = "AIzaSyAWZEoBoljII8KMfaheiA6tuZPTEDEas2A"
+GEMINI_API_KEY = ""
 client_genai = genai.Client(api_key=GEMINI_API_KEY)
 reader = easyocr.Reader(['en'], gpu=False)
 
